@@ -1,0 +1,14 @@
+.movie-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.movie-list__item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+}
