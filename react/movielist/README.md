@@ -25,3 +25,12 @@ You will also see any lint errors in the console.
 - [ ] ✨ The "Genres" filter should display all genres found in the watchlist
 - [ ] ✨ Clicking a genre in "Genres" should filter the watchlist, so only movies with the selected genre are displayed
 - [ ] 💅 Format the date to e.g. 19 sep 2019
+
+#### Step 4 - Make it dynamic
+
+- [ ] 🔁 Move the data json files to the public folder and use the fetch api to fetch the files
+
+#### Step 5 - Make it real
+
+- [ ] 🔑 Create an account at [The Movie DB](https://www.themoviedb.org/), and obtain your API key in [your profile settings](https://www.themoviedb.org/settings/api)
+- [ ] 📝 API documentation can be found [here](https://developers.themoviedb.org/3/getting-started/introduction)
