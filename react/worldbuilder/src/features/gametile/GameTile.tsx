@@ -47,12 +47,12 @@ const config = {
     column: 3,
     category: Category.TILE,
   },
-  ice01: {
+  water01: {
     row: 2,
     column: 0,
     category: Category.TILE,
   },
-  ice02: {
+  water02: {
     row: 2,
     column: 1,
     category: Category.TILE,
@@ -141,6 +141,86 @@ const config = {
     row: 2,
     column: 8,
     category: Category.TILE,
+  },
+  tree01: {
+    row: 3,
+    column: 4,
+    category: Category.ENVIRONMENT,
+  },
+  tree02: {
+    row: 3,
+    column: 5,
+    category: Category.ENVIRONMENT,
+  },
+  tree03: {
+    row: 3,
+    column: 6,
+    category: Category.ENVIRONMENT,
+  },
+  tree04: {
+    row: 3,
+    column: 7,
+    category: Category.ENVIRONMENT,
+  },
+  treeLog01: {
+    row: 3,
+    column: 8,
+    category: Category.ENVIRONMENT,
+  },
+  treeLog02: {
+    row: 3,
+    column: 9,
+    category: Category.ENVIRONMENT,
+  },
+  rock01: {
+    row: 4,
+    column: 4,
+    category: Category.ENVIRONMENT,
+  },
+  rock02: {
+    row: 4,
+    column: 5,
+    category: Category.ENVIRONMENT,
+  },
+  rock03: {
+    row: 4,
+    column: 6,
+    category: Category.ENVIRONMENT,
+  },
+  rock04: {
+    row: 4,
+    column: 7,
+    category: Category.ENVIRONMENT,
+  },
+  copper01: {
+    row: 4,
+    column: 8,
+    category: Category.ENVIRONMENT,
+  },
+  gold01: {
+    row: 4,
+    column: 9,
+    category: Category.ENVIRONMENT,
+  },
+  berries01: {
+    row: 5,
+    column: 10,
+    category: Category.ENVIRONMENT,
+  },
+  unit01: {
+    row: 3,
+    column: 11,
+    category: Category.UNIT,
+  },
+  unit02: {
+    row: 3,
+    column: 12,
+    category: Category.UNIT,
+  },
+  unit03: {
+    row: 3,
+    column: 13,
+    category: Category.UNIT,
   },
 };
 export const gameTileNames = Object.keys(config) as (keyof typeof config)[];

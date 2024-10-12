@@ -5,26 +5,26 @@ export function GameBoard() {
     <div>
       Game Board:
       <div className={"inline-grid grid-cols-5 grid-rows-5"}>
-        <GameTile name={"grass01"} />
-        <GameTile name={"grass02"} />
-        <GameTile name={"road15"} />
-        <GameTile name={"grass01"} />
-        <GameTile name={"grass02"} />
-        <GameTile name={"grass01"} />
-        <GameTile name={"grass02"} />
-        <GameTile name={"road01"} />
-        <GameTile name={"grass01"} />
-        <GameTile name={"grass02"} />
-        <GameTile name={"road13"} />
-        <GameTile name={"road02"} />
-        <GameTile name={"road05"} />
-        <GameTile name={"road02"} />
-        <GameTile name={"road02"} />
-        <GameTile name={"grass01"} />
-        <GameTile name={"grass02"} />
-        <GameTile name={"grass01"} />
-        <GameTile name={"grass02"} />
-        <GameTile name={"grass01"} />
+        <GameTile name={"grass01"} className={"border border-black"} />
+        <GameTile name={"grass02"} className={"border border-black"} />
+        <GameTile name={"road15"} className={"border border-black"} />
+        <GameTile name={"grass01"} className={"border border-black"} />
+        <GameTile name={"grass02"} className={"border border-black"} />
+        <GameTile name={"grass01"} className={"border border-black"} />
+        <GameTile name={"grass02"} className={"border border-black"} />
+        <GameTile name={"road01"} className={"border border-black"} />
+        <GameTile name={"grass01"} className={"border border-black"} />
+        <GameTile name={"grass02"} className={"border border-black"} />
+        <GameTile name={"road13"} className={"border border-black"} />
+        <GameTile name={"road02"} className={"border border-black"} />
+        <GameTile name={"road05"} className={"border border-black"} />
+        <GameTile name={"road02"} className={"border border-black"} />
+        <GameTile name={"road02"} className={"border border-black"} />
+        <GameTile name={"grass01"} className={"border border-black"} />
+        <GameTile name={"grass02"} className={"border border-black"} />
+        <GameTile name={"grass01"} className={"border border-black"} />
+        <GameTile name={"grass02"} className={"border border-black"} />
+        <GameTile name={"grass01"} className={"border border-black"} />
       </div>
     </div>
   );
