@@ -21,10 +21,7 @@ type TilePropsRowColumn = BaseTileProps & {
 type TileProps = TilePropsXY | TilePropsRowColumn;
 
 function isXY(props: TileProps): props is TilePropsXY {
-  return (
-    typeof (props as TilePropsXY).x !== "undefined" &&
-    typeof (props as TilePropsXY).y !== "undefined"
-  );
+  return "x" in props && "y" in props;
 }
 
 function getBackgroundPositionXY(props: TilePropsXY): string {
