@@ -1,0 +1,18 @@
+deployment:
+  resources:
+    requests:
+      memory: "4Mi"
+      cpu: "50m"
+    limits:
+      memory: "32Mi"
+      cpu: "150m"
+
+postgres:
+  enabled: false
+
+ingress:
+  enabled: true
+
+app:
+  name: "$CI_PROJECT_NAME"
+  tier: "frontend"
