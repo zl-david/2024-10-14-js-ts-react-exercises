@@ -1,4 +1,6 @@
 /*
+ * Note: You can run/execute TypeScript files directly with "bun": https://bun.sh/
+ *
  * Exercise: Event Management System
  *
  * Build an application (no UI) where users can register for events, organisers can manage events, administrators can generate reports.

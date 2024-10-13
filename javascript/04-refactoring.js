@@ -39,12 +39,14 @@ function processData(data) {
   return processedItems;
 }
 
-var data = [
-  { id: 1, value: 5, isValid: true },
-  { id: 2, value: 15, isValid: true },
-  { id: 3, value: 10, isValid: false },
-  { id: 1, value: 5, isValid: true },
-];
+module.exports = { processData };
 
-var result = processData(data);
-console.log(result);
+// var data = [
+//   { id: 1, value: 5, isValid: true },
+//   { id: 2, value: 15, isValid: true },
+//   { id: 3, value: 10, isValid: false },
+//   { id: 1, value: 5, isValid: true },
+// ];
+
+// var result = processData(data);
+// console.log(result);

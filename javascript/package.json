@@ -1,0 +1,14 @@
+{
+  "name": "david-training",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

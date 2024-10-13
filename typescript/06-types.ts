@@ -1,3 +1,5 @@
+// You can run/execute TypeScript files directly with "bun": https://bun.sh/
+
 // 1. Reverse a string
 function reverseString(input: any): any {
   return input.split("").reverse().join("");

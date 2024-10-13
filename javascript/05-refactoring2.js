@@ -41,13 +41,15 @@ function evaluateUsers(users) {
   return averageScore;
 }
 
-var usersData = [
-  { name: "Alice", age: 30, scores: [80, 90, 75] },
-  { name: "Bob", age: 15, scores: [50, 60] },
-  { name: "Charlie", age: 55, scores: [70, 65, 85] },
-  { name: "Dave", age: 70, scores: [90, 95] },
-  { name: "Eve", age: 25, scores: [60, 75, 80] },
-];
+module.exports = { evaluateUsers };
 
-var average = evaluateUsers(usersData);
-console.log("Average Score of Qualified Users:", average);
+// var usersData = [
+//   { name: "Alice", age: 30, scores: [80, 90, 75] },
+//   { name: "Bob", age: 15, scores: [50, 60] },
+//   { name: "Charlie", age: 55, scores: [70, 65, 85] },
+//   { name: "Dave", age: 70, scores: [90, 95] },
+//   { name: "Eve", age: 25, scores: [60, 75, 80] },
+// ];
+
+// var average = evaluateUsers(usersData);
+// console.log("Average Score of Qualified Users:", average);
