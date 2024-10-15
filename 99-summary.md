@@ -89,6 +89,10 @@ type Person = {
 
 - In depth articles and explanations: [https://overreacted.io/](https://overreacted.io/)
 
+- [https://usehooks.com/](https://usehooks.com/)
+
+- [Examples during course: https://codesandbox.io/p/sandbox/myz93z](https://codesandbox.io/p/sandbox/myz93z)
+
 💡 What’s a good value for a key? An easy way to answer this is to ask: when would you say an item is the “same” even if the order changed?
 
 💡 Components should be resilient to rendering less or more often because otherwise they’re too coupled to their particular parents: Example: https://codesandbox.io/p/sandbox/m3w9zn1z8x?file=/index.js:35,5
@@ -105,4 +109,22 @@ type Person = {
 
 💡 useReducer is the “cheat mode” of Hooks. It lets you decouple the update logic from describing what happened. This helps to remove unnecessary dependencies from effects.
 
-- [https://usehooks.com/](https://usehooks.com/)
+💡 Prefer update functions in useState (instead of expressions), or useReducer
+
+Possible ways of fixing unnecessary useEffect calls because of object dependencies:
+
+```javascript
+// OK, but gives ESLint warning that `filters` is missing in the dependency array
+[...Object.values(filters)];
+
+// Can be a lot of typing to pass all properties of an object + not always possible (e.g. nested objects)
+const { brand, color } = filters;
+[brand, color];
+
+// A lot slower
+const json = JSON.stringify(filters);
+useEffect(() => {
+  const filters = JSON.parse(json);
+  console.log(filters);
+}, [json]);
+```
