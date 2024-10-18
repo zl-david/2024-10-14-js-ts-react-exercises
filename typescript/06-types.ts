@@ -101,7 +101,7 @@ function isPositive(n: any): any {
 }
 
 // 21. Remove the first element from an array
-function removeFirst(arr: Array<unknown>): Array<unknown> {
+function removeFirst(arr: any): any {
   arr.shift();
   return arr;
 }
